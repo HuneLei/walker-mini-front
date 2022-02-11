@@ -1,0 +1,39 @@
+<!-- 搜索结果展示组件 -->
+<view class="error_com">
+  <block wx:if="{{type == 'result'}}">
+    <image class="image" src="{{src}}" />
+    <view class="hint">{{hint}}</view>
+  </block>
+  <block wx:if="{{type == 'error'}}">
+    <image class="image" src="{{src}}" />
+    <view class="hint">{{hint}}</view>
+  </block>
+  <block wx:elif="{{type == 'nothing'}}" />
+  <!-- loading -->
+  <block wx:elif="{{type == 'loading'}}">
+    <view class="loading">
+      <view class="loading-center">
+        <view class="spin"></view>
+      </view>
+      <view class="load_hint">{{loadHint}}</view>
+    </view>
+  </block>
+  <block wx:elif="{{type == 'loading2'}}">
+    <!-- loading -->
+    <view class="loading">
+      <view class="loading-center">
+        <view class="loading-center-absolute">
+          <view class="object object_one"></view>
+          <view class="object object_two"></view>
+          <view class="object object_three"></view>
+          <view class="object object_four"></view>
+          <view class="object object_five"></view>
+          <view class="object object_six"></view>
+          <view class="object object_seven"></view>
+          <view class="object object_eight"></view>
+        </view>
+      </view>
+      <text space="emsp" class="load_hint">{{loadHint}}</text>
+    </view>
+  </block>
+</view>

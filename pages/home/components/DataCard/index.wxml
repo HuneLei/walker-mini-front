@@ -1,0 +1,18 @@
+<view class="data_card_com">
+  <view class="data_card_heard">
+    <view class="data_card_title">
+      <text class="title">{{title}}</text>
+      <view wx:if="{{title}}" class="warning_image warning-image-icon" bindtap="_HanldeHint" />
+    </view>
+    <view class="switch_view" wx:if="{{isSwitch}}">
+      <text class="switch_title">是否去重</text>
+      <switch style="transform: scale(0.62);" color="#2E7DFFFF" checked="{{switchChecked}}" bindchange="_SwitchChange" />
+    </view>
+  </view>
+  <view class="data_list">
+    <view wx:for="{{4}}" wx:key="index" class="data_item">
+      <view class="number">268</view>
+      <view class="title">今日新增</view>
+    </view>
+  </view>
+</view>

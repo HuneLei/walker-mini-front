@@ -1,0 +1,14 @@
+.details_buttom {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  background-color: #ffffff;
+  height: 106rpx;
+  padding-top: 14rpx;
+}
+
+.flex {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+}

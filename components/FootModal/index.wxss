@@ -1,0 +1,23 @@
+.foot_modal {
+  display: flex;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  color: var(--text-details);
+  align-items: center;
+}
+
+.foot_modal .title {
+  padding: 0 16rpx;
+}
+
+.pointer_left {
+  width: 52rpx;
+  height: 2rpx;
+  background: linear-gradient(63deg, rgba(196, 196, 196, 0) 0%, #C4C4C4 100%);
+}
+
+.pointer_right {
+  width: 52rpx;
+  height: 2rpx;
+  background: linear-gradient(63deg, #C4C4C4 0%, rgba(196, 196, 196, 0) 100%);
+}

@@ -1,0 +1,6 @@
+<view class="login_error">
+  <image class="image" src="/assets/images/error/login_error.png" />
+  <view class="title">{{resultObj.title}}</view>
+  <view class="describe">{{resultObj.subTitle}}</view>
+  <view bindtap="GoLoginButton" wx:if="{{!resultObj.isLogin}}" class="cu-btn round again_button">重新登录</view>
+</view>

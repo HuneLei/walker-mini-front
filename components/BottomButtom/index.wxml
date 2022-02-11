@@ -1,0 +1,4 @@
+<!-- 底部按钮 -->
+<view style="justify-content: {{justify}}"  class="details_buttom {{flex ? 'flex' : ''}} safe_area solid-top">
+  <slot></slot>
+</view>

@@ -1,0 +1,65 @@
+{
+  "entryPagePath": "pages/index/index",
+  "pages": [
+    "pages/index/index",
+    "pages/home/index",
+    "pages/error/404/index"
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "borderStyle": "white",
+    "selectedColor": "#456FFE",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "/assets/images/tabbar/home_cur.png",
+        "selectedIconPath": "/assets/images/tabbar/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "/assets/images/tabbar/client.png",
+        "selectedIconPath": "/assets/images/tabbar/client_cur.png",
+        "text": "客户"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "/assets/images/tabbar/operate_cur.png",
+        "selectedIconPath": "/assets/images/tabbar/operate.png",
+        "text": "经营"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "/assets/images/tabbar/user_cur.png",
+        "selectedIconPath": "/assets/images/tabbar/user.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "基域智汇",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F4F5FA"
+  },
+  "usingComponents": {
+    "error-com": "/components/ErrorCom",
+    "bottom-buttom": "/components/BottomButtom",
+    "cut-item": "/components/CutItem",
+    "card-com": "/components/CardCom",
+    "main-modal": "/components/MainModal",
+    "action-sheet": "/components/ActionSheet",
+    "input-com": "/components/InputCom",
+    "nav-custom": "/components/NavCustom",
+    "foot-modal": "/components/FootModal"
+  },
+  "networkTimeout": {
+    "request": 15000,
+    "downloadFile": 15000
+  },
+  "permission": {},
+  "plugins": {},
+  "sitemapLocation": "sitemap.json"
+}

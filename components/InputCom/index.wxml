@@ -1,0 +1,7 @@
+<view class="input_com">
+  <input value="{{keyWord}}" placeholder="{{placeholder}}" class="{{right ? 'right' : ''}} input_field" type="{{type}}" bindinput="importInput" maxlength="{{maxlength}}" />
+  <view bindtap="emptyCode" class="empty_code">
+    <view style="width: 8rpx;"></view>
+    <image class="empty_image" hidden="{{!keyWord}}" src="/assets/images/common/empty.png"></image>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+<view class="rank_box" style="{{bgColor}}">
+  <view class="title" style="{{textColor}}">
+    {{title}}
+  </view>
+  <view class="content_list">
+    <block wx:for="{{3}}" wx:key="index">
+      <view class="content">
+        <image src="/assets/images/common/rank_{{index}}.png" class="ranking_image"></image>
+        <view class="ranking_amount">
+          <view class="heard">
+            <view class="name">张阿三</view>
+            <view class="amount">126</view>
+          </view>
+          <view class="cu-progress progress_view">
+            <view class="progress_item" style="{{'width:' + (100 / (index + 1)) + '%;' + progressColor}}"></view>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

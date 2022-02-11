@@ -1,0 +1,29 @@
+.filter_com {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 16rpx 26rpx 16rpx 32rpx;
+}
+
+.filter_com .filter {
+  color: var(--theme);
+}
+
+.filter_com .amount {
+  color: var(--text-details);
+  font-size: 24rpx;
+  line-height: 40rpx;
+}
+
+.filter_com .filter_view {
+  display: flex;
+  align-items: center;
+  color: var(--text-title);
+  font-size: 28rpx;
+}
+
+.filter_com .filter_view .image {
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 4rpx;
+}

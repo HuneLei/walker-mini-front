@@ -1,0 +1,69 @@
+.rank_box {
+  padding: 24rpx;
+  border-radius: 16rpx;
+}
+
+.rank_box .title {
+  font-size: 28rpx;
+  line-height: 40rpx;
+  font-weight: 500;
+  margin-bottom: 18rpx;
+}
+
+.rank_box .content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 16rpx 0;
+}
+
+.rank_box  .content_list {
+  margin: -12rpx 0;
+}
+
+.rank_box .content .progress_view {
+  background-color: transparent;
+}
+
+.rank_box .content .progress_view .progress_item {
+  background-color: transparent;
+  border-radius: 62rpx;
+  height: 14rpx;
+}
+
+.rank_box .ranking_image {
+  width: 44rpx;
+  height: 44rpx;
+  margin-right: 28rpx;
+}
+
+.rank_box .ranking_amount {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.rank_box .ranking_amount .heard {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10rpx;
+  justify-content: space-between;
+}
+
+.ranking_amount .heard .name {
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: var(--text-title);
+}
+
+.ranking_amount .heard .amount {
+  font-size: 28rpx;
+  line-height: 40rpx;
+  font-weight: 500;
+  color: var(--text-title);
+}
+
+.ranking_amount .progress {
+  height: 14rpx;
+  background-color: #2E7DFFFF;
+}

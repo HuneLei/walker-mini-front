@@ -1,0 +1,9 @@
+<view class="frame_show">
+  <view class="frame_heard">
+    <view class="label">{{label}}</view>
+    <view wx:if="{{isPit}}" class="hint  {{arrows ? 'arrows' : ''}}">
+      <text class="{{content ? 'content' : 'placeholder'}}">{{content || placeholder}}</text>
+    </view>
+  </view>
+  <slot></slot>
+</view>

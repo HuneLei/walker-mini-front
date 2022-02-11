@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "data-card": "./components/DataCard",
+    "switch-box": "./components/SwitchBox",
+    "rank-box": "./components/RankBox",
+    "catalog-card": "./components/CatalogCard",
+    "dialog-modal": "/components/DialogModal"
+  }
+}

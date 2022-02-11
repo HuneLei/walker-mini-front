@@ -1,0 +1,25 @@
+.nocoupon_view {
+  padding-top: 360rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nocoupon_view .nocoupon-png {
+  width: 364rpx;
+  height: 320rpx;
+}
+
+.nocoupon_view .nocoupon_text {
+  color: #999999;
+  margin-top: 22rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.nocoupon_view .nocoupon_address {
+  color: #FF9833;
+  font-size: 28rpx;
+  text-align: center;
+  margin-top: 10rpx;
+}

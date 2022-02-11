@@ -1,0 +1,7 @@
+<!-- 顶部搜索组件 -->
+<view class="search_com">
+  <view class="search_item" bindtap="_GoRelatedPage" data-url="{{url}}">
+    <image class="image" src="/assets/images/common/search.png" />
+    <text class="placeholder">{{searchTitle}}</text>
+  </view>
+</view>

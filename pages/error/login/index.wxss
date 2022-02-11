@@ -1,0 +1,32 @@
+.login_error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_error .image {
+  width: 280rpx;
+  height: 280rpx;
+  margin-top: 176rpx;
+}
+
+.login_error .title {
+  margin-top: 34rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 44rpx;
+  color: var(--text-title);
+}
+
+.login_error .describe {
+  margin-top: 12rpx;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  color: var(--text-info);
+}
+
+.login_error .again_button {
+  width: 610rpx;
+  margin-top: 80rpx;
+}

@@ -1,0 +1,17 @@
+<view class="cu-custom" style="height:{{CustomBar}}px">
+  <view class="cu-bar fixed bar_white" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;{{bgColor}}">
+    <block wx:if="{{!isCustom}}">
+      <view class="action" wx:if="{{isBack}}">
+        <view class="icon icon_back" bindtap="BackPage"></view>
+        <view class="icon icon_close" bindtap="ClosePage"></view>
+      </view>
+      <view class="content" style="top:{{StatusBar}}px">
+        <text>{{title}}</text>
+        <slot name="content"></slot>
+      </view>
+    </block>
+    <block>
+      <slot name="custom"></slot>
+    </block>
+  </view>
+</view>

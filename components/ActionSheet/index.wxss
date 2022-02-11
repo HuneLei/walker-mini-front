@@ -1,0 +1,18 @@
+.hanlde_list .hanlde_item {
+  font-size: 36rpx;
+  color: var(--text-title);
+  padding: 32rpx 24rpx;
+  background: var(--white);
+}
+.cu-modal .blank {
+  background-color: #F5F5F5FF;
+  height: 14rpx;
+}
+.cu-modal .sheet_cancel {
+  background: var(--white);
+  color: var(--text-info);
+  font-size: 36rpx;
+  line-height: 50rpx;
+  height: 96rpx;
+  padding-top: 32rpx;
+}

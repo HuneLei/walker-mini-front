@@ -1,0 +1,29 @@
+.search_com {
+  padding: 14rpx 24rpx 12rpx;
+  background-color: var(--white);
+}
+
+.search_item {
+  display: flex;
+  padding: 16rpx 32rpx;
+  border-radius: 8rpx;
+  align-items: center;
+  border: 1px solid var(--border-05);
+  background-color: var(--search-background);
+}
+
+.search_item .image {
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 12rpx;
+}
+
+.search_item .placeholder {
+  flex: 1;
+  color: var(--text-details);
+  font-size: 26rpx;
+  line-height: 30rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

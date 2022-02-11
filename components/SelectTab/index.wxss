@@ -1,0 +1,37 @@
+.tab_select {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white);
+}
+
+.tab_select .item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  line-height: 36rpx;
+  height: 48rpx;
+  color: var(--text-info);
+  position: relative;
+  padding: 16rpx 0 20rpx;
+  box-sizing: content-box;
+}
+
+/* 选中 */
+.tab_select .item.item_select {
+  color: var(--theme);
+}
+
+.tab_select .item.item_select::after {
+  content: " ";
+  width: 44rpx;
+  height: 4rpx;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 22rpx);
+  border-radius: inherit;
+  pointer-events: none;
+  box-sizing: border-box;
+  background-color: var(--theme);
+}

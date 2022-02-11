@@ -1,0 +1,88 @@
+page {
+  /* ==================
+          颜色
+ ==================== */
+  /* 主题色 */
+  --theme: #2E7DFF;
+  /* 背景色 */
+  --background: #F4F5FA;
+  /* 卡片背景色 */
+  --card-background: #C3D2FF12;
+  --search-background: #F9F9FBFF;
+  --tag-background: #55CDA6FF;
+  --tag-background-1A: #2E7DFF1A;
+  --label-background: #F4F5FAFF;
+  --tally-background: #FC64011A;
+  --weixin-background: #07C1601A;
+  --error-background: #F74B5C1A;
+  --data-background: #F8F9FF;
+  --info-background: #00000008;
+  --warning-background: #FFF9EDFF;
+
+  /* 文字颜色 */
+  /* 标题 */
+  --text-title: #000000D9;
+  /* 内容 */
+  --text-details: #00000073;
+  /* 信息 */
+  --text-info: #000000A6;
+  /* 标签 */
+  --text-tag: #FC6401FF;
+  /* error信息 */
+  --text-error: #F74B5CFF;
+  --test-weixin: #07C160FF;
+  --test-warning: #FF6010FF;
+  /* 边框颜色 */
+  /* 按钮 */
+  --border-button: #00000040;
+  /* 卡片 */
+  --border-card: #F2F5FFFF;
+  --border-05: #00000005;
+  --border-0D: #0000000D;
+  /* --border-0D: #FC6401FF; */
+  --border-tag: #0000000D;
+  --border-error: #F74B5C33;
+  --border-info: #E1EDFFFF;
+
+  /* 阴影颜色 */
+  /* 卡片 */
+  --shadow-card: #C3D2FF12;
+  --shadow-button: #2E7DFF47;
+
+  /* 按钮颜色 */
+  --button-ban: #2E7DFF80;
+
+
+  /* 标准色 */
+  --red: #EF0015FF;
+  --orange: #f37b1d;
+  --yellow: #FF9F23;
+  --olive: #8dc63f;
+  --green: #39b54a;
+  --cyan: #1cbbb4;
+  --blue: #2398FF;
+  --purple: #6739b6;
+  --mauve: #9c26b0;
+  --pink: #e03997;
+  --brown: #a5673f;
+  --grey: #8799a3;
+  --darkGray: #666666;
+  --gray: #B3B3B3;
+  --ghostWhite: #f1f1f1;
+  --white: #ffffff;
+  --transparent: transparent;
+
+  /* 浅色 */
+  --redLight: #fadbd9;
+  --orangeLight: #fde6d2;
+  --yellowLight: #fef2ce;
+  --oliveLight: #e8f4d9;
+  --greenLight: #d7f0db;
+  --cyanLight: #d2f1f0;
+  --blueLight: #cce6ff;
+  --purpleLight: #e1d7f0;
+  --mauveLight: #ebd4ef;
+  --pinkLight: #f9d7ea;
+  --brownLight: #ede1d9;
+  --banLight: #D9D9D9;
+}

@@ -1,0 +1,8 @@
+<!--筛选组件-->
+<view class="filter_com solid-top">
+  <view class="amount">数量 ({{amount}})</view>
+  <view class="filter_view" bindtap="_GoRelatedPage" data-url="{{url}}">
+    <view class="{{isfilter ? 'filter' : ''}}">筛选</view>
+    <image class="image" src="/assets/images/common/{{isfilter ? 'have_screen' : 'screen'}}.png"></image>
+  </view>
+</view>

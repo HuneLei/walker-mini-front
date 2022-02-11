@@ -1,0 +1,43 @@
+.switch-box {
+  width: 400rpx;
+  background-color: #F8F9FFFF;
+  border-radius: 32rpx;
+  height: 64rpx;
+  position: relative;
+  border: 1px solid #F2F2F2;
+}
+
+.switch-box .switch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.switch-box .switch .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.switch-box .switch_checked {
+  top: 0;
+  left: 0 !important;
+  transition: all 0.35s cubic-bezier(0.45, 1, 0.4, 1);
+}
+
+.switch-box .switch_item {
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 50%;
+  border-radius: 32rpx;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #2E7DFFFF;
+  transition: all 0.35s cubic-bezier(0.45, 1, 0.4, 1);
+}

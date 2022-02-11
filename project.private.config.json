@@ -1,0 +1,24 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "404页面",
+          "pathName": "pages/error/404/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+<view class="home_page">
+  <!-- 顶部背景色 -->
+  <view class="top_background" />
+  <!-- 顶部导航栏 -->
+  <nav-custom title="选择对应员工" bindNavBackPage="BackSelect" bgColor="background-color: rgba(255, 255, 255, {{navOpacity}});" isCustom>
+    <view slot="custom" class="nav_custom">
+      <view class="nav_image nav-image-logo" />
+    </view>
+  </nav-custom>
+  <!-- 数据展示和记录 -->
+  <view class="data_show">
+    <view class="switch_box">
+      <switch-box switchList="{{switchList}}" />
+    </view>
+    <view style="height: 4rpx"></view>
+    <data-card isSwitch title="客户量" bindHanldeHint="HanldeHint" />
+    <view style="height: 16rpx"></view>
+    <data-card title="客户联系" bindHanldeHint="HanldeHint" />
+    <view class="foot_modal">
+      <foot-modal content="昨日数据" />
+    </view>
+  </view>
+  <!-- 排行榜 -->
+  <view class="ranking">
+    <view class="ranking_list">
+      <view class="ranking_list_heard">
+        <view class="title">昨日企业员工排行榜</view>
+        <view class="warning_image warning-image-icon" bindtap="HanldeHint" />
+      </view>
+      <view class="rank_view">
+        <rank-box class="rank_item" title="新增客户" textColor="color:#1F4E9EFF" bgColor="background: linear-gradient(180deg, #F0F6FE 0%, rgba(240, 246, 254, 0) 100%);" progressColor="background: linear-gradient(326deg, #8BB7FF 0%, #2E7DFF 100%);" />
+        <view style="width: 14rpx;" />
+        <rank-box class="rank_item" title="双向联系" textColor="color:#994D2BFF" bgColor="background: linear-gradient(180deg, #FFF7F1 0%, rgba(255, 247, 241, 0) 100%);" progressColor="background: linear-gradient(326deg, #FFC7A5 0%, #FFA15E 100%);" />
+      </view>
+    </view>
+  </view>
+  <!-- 快捷功能 -->
+  <view class="ranking">
+    <view class="ranking_list">
+      <view class="ranking_list_heard">
+        <view class="title">快捷功能</view>
+      </view>
+      <view class="function_list">
+        <block wx:for="{{functionList}}" wx:key="type">
+          <view class="function_item">
+            <image class="image" src="/assets/images/operate/{{item.type}}.png"></image>
+            <view class="title">{{item.name}}</view>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+  <!-- 资讯列表 -->
+  <view class="quality_list">
+    <view class="quality_view">
+      <view class="quality_heard cu-item solid-bottom">
+        <view class="quality_tab">
+          <view class="tab_catalog" wx:for="{{tabList}}" wx:key="id">
+            <view bindtap="handleSelectTab" data-index='{{index}}' class="tab_catalog_item {{ selectTab !== index || 'item_select' }}">{{item.name}}</view>
+          </view>
+        </view>
+        <view class="right_more">
+          <view>更多</view>
+          <view class="arrows"></view>
+        </view>
+      </view>
+      <view class="catalog_card_list">
+        <view class="catalog_card {{index == 2 ? '' : 'solid-bottom'}}" wx:for="{{dataList}}" wx:key="index">
+          <catalog-card datainfo="{{item}}" bindtap="GoRelatedPage" data-url="/pages/home/message/index" />
+        </view>
+      </view>
+    </view>
+    <view class="foot_modal">
+      <foot-modal content="暂无更多数据" />
+    </view>
+  </view>
+
+  <dialog-modal class="dialog-modal-message" buttonType="close" title="团队客户量指标释义">
+    <view class="indicate_list">
+      <view class="item" wx:for="{{hintList}}" wx:key="index">
+        <view class="title">{{item.title}}</view>
+        <view class="content">{{item.content}}</view>
+      </view>
+    </view>
+  </dialog-modal>
+</view>

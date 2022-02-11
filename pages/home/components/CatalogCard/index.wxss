@@ -1,0 +1,32 @@
+.catalog_card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog_card .image {
+  width: 196rpx;
+  height: 136rpx;
+  border-radius: 8rpx;
+}
+
+.catalog_card .content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-right: 24rpx;
+  justify-content: space-between;
+}
+
+.catalog_card .content .title {
+  color: var(--text-title);
+  font-size: 32rpx;
+  line-height: 44rpx;
+}
+
+.catalog_card .content .botttom_content {
+  display: flex;
+  font-size: 22rpx;
+  line-height: 30rpx;
+  justify-content: space-between;
+  color: var(--text-details);
+}

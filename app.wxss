@@ -1,0 +1,17 @@
+/**app.wxss**/
+@import "assets/style/color.wxss";
+@import "assets/style/main.wxss";
+@import "assets/style/normalize.wxss";
+@import "assets/style/animation.wxss";
+@import "assets/style/image.wxss";
+@import "assets/icon/icon.wxss";
+@import "utils/template/comtemplate.wxss";
+
+/* DINAlternate-Bold 字体样式 */
+@import "assets/fonts/DINAlternate-Bold.wxss";
+
+
+/* DINAlternate-Bold 字体*/
+.din_cond_text {
+  font-family: 'DINAlternate-Bold';
+}

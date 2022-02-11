@@ -1,0 +1,12 @@
+<view class="cu-modal bottom-modal {{ isShow ? 'show':'' }}" bindtap="_closeDialog" catchtouchmove="_myCatchTouch">
+  <view class="cu-dialog modal_dialog" catchtap='_mycatchtap'>
+    <view class="heard solid-bottom">
+      <view class="title">{{title}}</view>
+      <view class="button" bindtap="_closeDialog">确定</view>
+    </view>
+    <view class="scroll_view">
+      <slot></slot>
+      <view class="safe_area" />
+    </view>
+  </view>
+</view>

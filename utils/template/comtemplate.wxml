@@ -1,0 +1,42 @@
+<!-- 通用模板 -->
+<!-- 单人 -->
+<template name="tag_0">
+	<view class="tag_person tag_person_0">单人</view>
+</template>
+
+<!-- 多人 -->
+<template name="tag_1">
+	<view class="tag_person tag_person_1">多人</view>
+</template>
+
+<!-- 微信和企业微信 -->
+<!-- 企业微信 -->
+<template name="WORK_WEIXIN">
+	<view class="tag_weixin weixin_0">企业微信</view>
+</template>
+
+<!-- 微信 -->
+<template name="WEIXIN">
+	<view class="tag_weixin weixin_1">微信</view>
+</template>
+
+<!-- 状态 -->
+<!-- 红色警告 -->
+<template name="warning">
+	<view class="insert ">
+		<view class="insert_warning">
+			<image class="warning_image" src="/assets/images/common/plaint.png"></image>
+			<text>{{label}}</text>
+		</view>
+	</view>
+</template>
+
+<!-- 黄色警告 -->
+<template name="head-warning">
+	<view class="head-insert ">
+		<view class="insert_warning">
+			<image class="warning_image" src="/assets/images/common/head-plaint.png"></image>
+			<text>{{label}}</text>
+		</view>
+	</view>
+</template>

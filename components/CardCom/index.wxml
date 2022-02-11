@@ -1,0 +1,5 @@
+<!-- 卡片组件 -->
+<view class="card_com">
+  <view wx:if="{{title}}" class="title solid-bottom">{{title}}</view>
+  <slot></slot>
+</view>

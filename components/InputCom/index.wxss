@@ -1,0 +1,25 @@
+.input_com {
+  display: flex;
+  align-items: center;
+}
+
+.input_com .right {
+  text-align: right;
+}
+
+.input_com .input_field {
+  color: var(--text-title);
+  font-size: 32rpx;
+  width: 100%;
+}
+
+.empty_code {
+  display: flex;
+  align-items: center;
+}
+
+.input_com .empty_image {
+  width: 32rpx;
+  height: 32rpx;
+  box-sizing: content-box;
+}

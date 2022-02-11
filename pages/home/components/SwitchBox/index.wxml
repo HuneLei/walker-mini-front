@@ -1,0 +1,8 @@
+<view class="switch-box" data-checked="{{ switchChecked }}" bindtap="_SwitchChange">
+  <view class="switch">
+    <view wx:for="{{switchList}}" class="item" wx:key="index">{{item.name}}</view>
+  </view>
+  <view class="switch_item {{ switchChecked == 0 ? 'switch_checked' : '' }}">
+    <view>{{switchList[switchChecked].name}}</view>
+  </view>
+</view>

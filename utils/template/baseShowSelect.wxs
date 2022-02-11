@@ -1,0 +1,42 @@
+/**
+ * 公共显示
+ */
+
+//  二维码的类型
+var qrcodeType = {
+  "ONE": '个人',
+  "MANY": '多人',
+};
+
+// 验证方式
+var verifyType = {
+  "AUTO": '自动通过',
+  "CONFIRM": '手动确认',
+};
+
+// 验证方式
+var verifyType = {
+  "AUTO": '自动通过',
+  "CONFIRM": '手动确认',
+};
+
+var statusType = {
+  "KEEP": {
+    label: '正常'
+  },
+  "LOSS": {
+    label: '已被客户删除'
+  },
+  "REMOVE": {
+    label: '已删除客户'
+  },
+  "OVER": {
+    label: '已相互删除'
+  },
+}
+
+module.exports = {
+  statusType: statusType,
+  verifyType: verifyType,
+  qrcodeType: qrcodeType,
+};

@@ -1,0 +1,50 @@
+.search_com {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14rpx 24rpx 12rpx;
+  background-color: var(--white);
+}
+
+.search_item {
+  flex: 1;
+  display: flex;
+  padding: 0rpx 20rpx 0rpx 32rpx;
+  border-radius: 8rpx;
+  align-items: center;
+  border: 1px solid var(--border-05);
+  background-color: var(--search-background);
+  height: 68rpx;
+}
+
+.search_item .image {
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 12rpx;
+}
+
+.search_item .empty {
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 12rpx;
+}
+
+.search_item .input_search {
+  flex: 1;
+  color: var(--text-title);
+  font-size: 26rpx;
+}
+
+.search_item .placeholder_search {
+  flex: 1;
+  color: var(--text-details);
+  font-size: 26rpx;
+}
+
+/* 取消 */
+.search_com .cancel {
+  font-size: 26rpx;
+  color: var(--theme);
+  line-height: 36rpx;
+  padding: 6rpx 16rpx 6rpx 34rpx;
+}

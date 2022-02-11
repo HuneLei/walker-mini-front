@@ -1,0 +1,5 @@
+<view class="foot_modal">
+  <view class="pointer_left" />
+  <view class="title">{{content}}</view>
+  <view class="pointer_right" />
+</view>

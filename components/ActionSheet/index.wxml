@@ -1,0 +1,13 @@
+<view class="cu-modal bottom-modal {{ isShow ? 'show':'' }}" bindtap="_closeDialog" catchtouchmove="_myCatchTouch">
+  <view class="cu-dialog" catchtap='_mycatchtap'>
+    <view class="hanlde_list">
+      <block wx:for="{{itemList}}" wx:key="index">
+        <view data-index="{{index}}" class="hanlde_item solid-bottom" style="{{item.color ? 'color:' + item.color : '' }}" bindtap="_selectItem">{{item.title}}</view>
+      </block>
+      <view class="blank" />
+    </view>
+    <view class="sheet_cancel safe_area" bindtap="_closeDialog">
+      取消
+    </view>
+  </view>
+</view>

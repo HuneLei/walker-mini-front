@@ -1,0 +1,10 @@
+<view class="catalog_card">
+  <view class="content">
+    <view class="title">{{datainfo.title}}</view>
+    <view class="botttom_content">
+      <view class="time">{{datainfo.time}}</view>
+      <view class="hanlde">1980读 · 108赞 · 64转</view>
+    </view>
+  </view>
+  <image class="image" src="/assets/images/common/images.jpg"></image>
+</view>

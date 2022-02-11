@@ -1,0 +1,75 @@
+/* 单人多人模块 */
+.tag_person {
+  color: var(--white);
+  font-size: 24rpx;
+  border-radius: 8rpx;
+  line-height: 28rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38rpx;
+  width: 64rpx;
+}
+
+.tag_person_0 {
+  background-color: var(--theme);
+}
+
+.tag_person_1 {
+  background-color: var(--tag-background);
+}
+
+/* 微信企业微信模块 */
+.tag_weixin {
+  display: flex;
+  align-items: center;
+  border-radius: 8rpx;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  padding: 4rpx 12rpx;
+}
+
+.weixin_0 {
+  color: var(--text-tag);
+  background-color: var(--tally-background);
+}
+
+.weixin_1 {
+  color: var(--test-weixin);
+  background-color: var(--weixin-background);
+}
+
+/* 状态 */
+.insert .insert_warning {
+  color: var(--text-error);
+  font-size: 24rpx;
+  padding: 8rpx 20rpx;
+  border-radius: 8rpx;
+  width: fit-content;
+  background-color: var(--error-background);
+  border: 1px solid var(--border-error);
+  display: flex;
+  align-items: center;
+}
+
+.insert .warning_image {
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 8rpx;
+}
+
+.head-insert .insert_warning {
+  color: var(--test-warning);
+  font-size: 28rpx;
+  padding: 16rpx 32rpx 16rpx 24rpx;
+  line-height: 40rpx;
+  background-color: var(--warning-background);
+  display: flex;
+  align-items: center;
+}
+
+.head-insert .warning_image {
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 12rpx;
+}

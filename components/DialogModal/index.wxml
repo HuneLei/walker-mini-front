@@ -1,0 +1,15 @@
+<view class="cu-modal bottom-modal {{ isShow ? 'show':'' }}" bindtap="_closeDialog" catchtouchmove="_myCatchTouch">
+  <view class="cu-dialog modal_dialog" catchtap='_mycatchtap'>
+    <view class="heard solid-bottom">
+      <view class="title">{{title}}</view>
+      <view class="button" bindtap="_closeDialog">
+        <view wx:if="{{buttonType == 'confirm'}}">确定</view>
+        <image wx:if="{{buttonType == 'close'}}" class="close" src="/assets/images/common/nav_close.png" />
+      </view>
+    </view>
+    <scroll-view scroll-y class="scroll_view">
+      <slot></slot>
+      <view class="safe_area" />
+    </scroll-view>
+  </view>
+</view>

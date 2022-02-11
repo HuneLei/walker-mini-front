@@ -1,0 +1,9 @@
+<!-- 顶部输入搜索组件 -->
+<view class="search_com">
+  <view class="search_item">
+    <image class="image" src="/assets/images/common/search.png" />
+    <input value='{{keyWord}}' focus="{{focus}}" class="input_search" type="text" placeholder="{{searchTitle}}" placeholder-class="placeholder_search" bindinput='searchInput' bindconfirm='SearchConfirm' confirm-type="search" />
+    <image class="empty" src="/assets/images/common/empty.png" hidden="{{!keyWord}}" bindtap="emptyCode" />
+  </view>
+  <view class="cancel" bindtap="_HanldeCancal">取消</view>
+</view>

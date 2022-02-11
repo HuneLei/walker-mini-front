@@ -1,0 +1,3 @@
+<scroll-view enable-back-to-top scroll-y class="main_modal">
+  <slot></slot>
+</scroll-view>

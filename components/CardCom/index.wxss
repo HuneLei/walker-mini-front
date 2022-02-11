@@ -1,0 +1,11 @@
+.card_com {
+  border-radius: 16rpx;
+  background-color: #ffffff;
+}
+
+.card_com .title {
+  color: var(--text-title);
+  font-size: 32rpx;
+  line-height: 48rpx;
+  padding: 26rpx 32rpx;
+}

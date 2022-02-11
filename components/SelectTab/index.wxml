@@ -1,0 +1,5 @@
+<view class="tab_select">
+  <block wx:for="{{tabList}}" wx:key="item">
+    <view bindtap="handleSelectTab" data-index='{{index}}' class="item {{ selectTab !== index || 'item_select' }}">{{item.label}}</view>
+  </block>
+</view>

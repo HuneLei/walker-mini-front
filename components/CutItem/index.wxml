@@ -1,0 +1,10 @@
+<view class="cut_item {{solid ? 'solid-top' : ''}}">
+  <view class="frame_heard">
+    <view class="left_view {{labelClass}} {{required ? 'required' : ''}}">{{label}}</view>
+    <view wx:if="{{isPit}}" class="hint {{arrows ? 'arrows' : ''}}">
+      <text class="{{content ? 'content' : 'placeholder'}}  {{contentClass}}">{{content || placeholder}}</text>
+    </view>
+    <slot name="right"></slot>
+  </view>
+  <slot name="bottom"></slot>
+</view>
